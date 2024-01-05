@@ -1,0 +1,34 @@
+# # Определение цветов
+# BLACK = (0, 0, 0)
+# WHITE = (255, 255, 255)
+# GREEN = (0, 255, 0)
+# RED = (255, 0, 0)
+# BLUE = (0, 0, 255)
+
+# Определение размеров окна и ячеек
+WINDOW_WIDTH = 1700
+WINDOW_HEIGHT = 1000
+CANVAS_WIDTH = 1200
+CANVAS_HEIGHT = 1000
+CELL_SIZE = 20
+CELL_MARGIN = 1
+MAX_POWER = 100
+
+WORST_HEALTH, BEST_HEALTH = 100, 50
+WORST_LIFETIME, BEST_LIFETIME = 50, 400
+WORST_FOOD, BEST_FOOD = 3, 1
+WORST_COLLECT, BEST_COLLECT = 1, 5
+WORST_ATTACK, BEST_ATTACK = 1, 50
+WORST_REST, BEST_REST = 5, 0
+
+
+param_interval = {
+    "health": (WORST_HEALTH, BEST_HEALTH),
+    "lifetime": (WORST_LIFETIME, BEST_LIFETIME),
+    "food": (WORST_FOOD, BEST_FOOD),
+    "collect": (WORST_COLLECT, BEST_COLLECT),
+    "attack": (WORST_ATTACK, BEST_ATTACK),
+    "rest": (WORST_REST, BEST_REST)
+}
+
+all_org = [0]
